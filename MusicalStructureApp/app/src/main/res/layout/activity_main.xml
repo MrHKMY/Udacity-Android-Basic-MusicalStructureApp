@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/TopBarColor"
+        android:orientation="vertical"
+        tools:context="com.example.android.musicalstructureapp.MainActivity">
+
+        <LinearLayout
+            android:id="@+id/TopBarID"
+            style="@style/TopBarStyle"
+            android:background="@color/TopBarColor">
+
+            <TextView
+                android:id="@+id/albumID"
+                style="@style/TopNavigation"
+                android:text="@string/albumLabel" />
+
+            <TextView
+                android:id="@+id/SongListID"
+                style="@style/TopNavigation"
+                android:text="@string/songLabel" />
+
+            <TextView
+                android:id="@+id/PlayListID"
+                style="@style/TopNavigation"
+                android:text="@string/playlistLabel" />
+
+            <TextView
+                android:id="@+id/MyFavouriteID"
+                style="@style/TopNavigation"
+                android:text="@string/favouriteLabel" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LayoutLabelID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/LabelID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="@string/mainScreenInfo"
+                android:textAlignment="center" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="177dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/disc" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/AllButtonLayoutID"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom">
+
+            <ImageButton
+                android:id="@+id/previousButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_skip_previous_black_24dp" />
+
+            <ImageButton
+                android:id="@+id/PlayButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_play_circle_outline_black_24dp" />
+
+            <ImageButton
+                android:id="@+id/nextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_skip_next_black_24dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+

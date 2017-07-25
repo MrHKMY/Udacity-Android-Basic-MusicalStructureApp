@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">MusicalStructureApp</string>
+
+    <string name="albumLabel">Album</string>
+
+    <string name="songLabel">All Songs</string>
+
+    <string name="playlistLabel">Playlist</string>
+
+    <string name="favouriteLabel">My Favourite</string>
+
+    <string name="mainScreenInfo">This is the main page. It will display the navigation to other screen at the top, and the song thumbnail, play/pause button, seeker and indicator at the bottom</string>
+
+    <string name="AlbumInfo">This page will display all the ALBUMS available in the music player. The above button will direct the user to the main page when clicked.</string>
+
+    <string name="SongInfo">This page will display all the SONGS list available in the music player. The above button will direct the user to the main page when clicked. The floating button will direct to new activity which the user can add new song from device or buy at online store </string>
+
+    <string name="PlaylistInfo">This page will display all the PLAYLIST created by the user in the music player. The above button will direct the user to the main page when clicked.</string>
+
+    <string name="FavouriteInfo">This page will display all the FAVOURITE song selected by the user. The above button will direct the user to the main page when clicked.</string>
+
+    <string name="album1">Album 1</string>
+
+    <string name="album2">Album 2</string>
+
+    <string name="album3">Album 3</string>
+
+    <string name="album4">Album 4</string>
+
+    <string name="song1">Song 1</string>
+
+    <string name="song2">Song 2</string>
+
+    <string name="song3">Song 3</string>
+
+    <string name="song4">Song 4</string>
+
+    <string name="playlist1">Playlist 1</string>
+
+    <string name="playlist2">Playlist 2</string>
+
+    <string name="playlist3">Playlist 3</string>
+
+    <string name="playlist4">Playlist 4</string>
+
+    <string name="favourite1">Favourite 1</string>
+
+    <string name="favourite2">Favourite 2</string>
+
+    <string name="favourite3">Favourite 3</string>
+
+    <string name="favourite4">Favourite 4</string>
+
+    <string name="button">Back to Now Playing</string>
+
+    <string name="addSongInfo">On this screen you will have the option to add media files from your device storage. You will also see a list of online music store where you can buy songs.</string>
+
+    <string name="add_songs_from_device">Add new songs from device</string>
+
+    <string name="scan_device">Scan device</string>
+
+    <string name="add_songs_from_store">Buy new song online</string>
+
+    <string name="add_songs_store_name_placeholder">Store Name</string>
+
+    <string name="add_songs_store_url_placeholder">http://musicstore.com</string>
+
+    <string name="add_songs_store_description_placeholder">Hundreds of albums from great artists</string>
+</resources>
